@@ -32,10 +32,10 @@ const COMPANY = ["Seul", "En couple", "Entre amis", "En famille", "Avec des inco
 const BUDGETS = ["Gratuit", "Petit budget", "Peu importe"];
 
 export function DiscoverPage() {
-  const [mood, setMood] = useState(MOODS[0]);
+  const [mood, setMood] = useState(MOODS[0]!);
   const [themes, setThemes] = useState<string[]>([]);
-  const [company, setCompany] = useState(COMPANY[0]);
-  const [budget, setBudget] = useState(BUDGETS[0]);
+  const [company, setCompany] = useState(COMPANY[0]!);
+  const [budget, setBudget] = useState(BUDGETS[0]!);
   const [maxDistance, setMaxDistance] = useState(30);
 
   const fn = useServerFn(suggestExperience);

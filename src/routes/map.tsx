@@ -22,7 +22,7 @@ export const Route = createFileRoute("/map")({
 });
 
 function MapPage() {
-  const [active, setActive] = useState(MAP_SPOTS[0]);
+  const [active, setActive] = useState(MAP_SPOTS[0]!);
 
   return (
     <AppShell title="Carte">

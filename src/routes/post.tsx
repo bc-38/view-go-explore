@@ -31,7 +31,7 @@ function PostPage() {
   const navigate = useNavigate();
   const [image, setImage] = useState("");
   const [title, setTitle] = useState("");
-  const [theme, setTheme] = useState(THEMES[0]);
+  const [theme, setTheme] = useState(THEMES[0]!);
   const [description, setDescription] = useState("");
   const [routeText, setRouteText] = useState("");
   const [city, setCity] = useState("");
