@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { createFileRoute as _unused } from "@tanstack/react-router";
+
 import { useState } from "react";
 import { Send } from "lucide-react";
 import { AppShell } from "@/components/AppShell";
